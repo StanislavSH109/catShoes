@@ -24,14 +24,11 @@ img {
 }
 
 .banner-intro {
-    background-color: #cccccc;
     width: 100%;
     padding: 60px 20px;
     border-radius: 20px;
-    background-image: url("https://i.ibb.co/G2mZ98k/Rectangle-3banner-CAT.png");
-    background-repeat: no-repeat;
+    background: #cccccc url("https://i.ibb.co/G2mZ98k/Rectangle-3banner-CAT.png") no-repeat;
     background-size: cover;
-    background-position: center;
 }
 
 .banner-intro__info {
