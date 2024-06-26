@@ -27,10 +27,13 @@ img {
     width: 100%;
     background-color: grey;
     padding: 60px 20px;
+    
 }
 
 .banner-intro__info {
+    margin: 0 auto 85px;
     width: 600px;
+    border-radius: 25%;
 }
 
 .banner-intro__img {
@@ -68,8 +71,8 @@ img {
     color: #444444;
     text-align: center;
     width: 400px;
-    margin: 0 0 35px;
-    padding: 0 auto 35px;
+    margin: 0 auto 35px;
+    
 }
 
 .banner-intro__product-price {
@@ -79,11 +82,17 @@ img {
 }
 
 .banner-intro__link {
+    display: block;
     font-size: 26px;
     line-height: 32px;
     text-decoration: none;
     color: #444444;
-
+    background-color: #fff;
+    width: 376px;
+    padding: 21px;
+    border-radius: 30px;
+    text-align: center;
+    margin: 0 auto 48px;
 }
 
 .banner-intro__note {
@@ -91,4 +100,11 @@ img {
     font-size: 20px;
     line-height: 24px;
     color: #FFFF;
+    width: 530px;
+    margin: 0 auto 0;
+    text-align: center;
+}
+
+.banner-intro__product-price {
+    display: block;
 }
