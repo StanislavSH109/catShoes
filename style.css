@@ -7,3 +7,69 @@ body {
     margin: 0;
     padding: 0;
 }
+
+img {
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+    height: auto;
+}
+
+.page-content {
+    padding: 60px 30px;
+}
+
+.letter-title {
+    text-transform: uppercase;
+}
+
+.banner-intro {
+    width: 100%;
+    background-color: grey;
+    padding: 60px 20px;
+}
+
+.banner-intro__title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 62px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #ffff;
+    margin: 0 0 60px;
+}
+
+.banner-intro__product-title {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #444444;
+}
+
+.banner-intro__product-text {
+    font-size: 20px;
+    line-height: 26px;
+    color: #444444;
+}
+
+.banner-intro__product-price {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.banner-intro__link {
+    font-size: 26px;
+    line-height: 32px;
+    text-decoration: none;
+    color: #444444;
+
+}
+
+.banner-intro__note {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFF;
+}
