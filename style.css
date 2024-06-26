@@ -24,16 +24,23 @@ img {
 }
 
 .banner-intro {
+    background-color: #cccccc;
     width: 100%;
-    background-color: grey;
     padding: 60px 20px;
-    
+    border-radius: 20px;
+    background-image: url("https://i.ibb.co/G2mZ98k/Rectangle-3banner-CAT.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .banner-intro__info {
     margin: 0 auto 85px;
     width: 600px;
-    border-radius: 25%;
+    border-radius: 20px 120px 20px 120px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px 0px #ACE0F999;
+    ;
 }
 
 .banner-intro__img {
